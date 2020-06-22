@@ -12,9 +12,11 @@ def prompt_user
 end
 
 def selection(num)
-  if num = 1.to_i
+  if num = 1
+    binding.pry
     print "YUM YUM MUNCH MUNCH MUNCH"
-  elsif num =2.to_i
+  elsif num =2
+  binding.pry
     print "HAM HAM HAM IN MY TUMMY"
   end
 end
