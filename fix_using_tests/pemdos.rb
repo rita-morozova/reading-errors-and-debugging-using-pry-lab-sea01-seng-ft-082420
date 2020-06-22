@@ -7,6 +7,6 @@ def snake_it_up (string)
            end
     puts ten_s + string.to_s
   else
-    string
+    string.to_s
   end
 end
