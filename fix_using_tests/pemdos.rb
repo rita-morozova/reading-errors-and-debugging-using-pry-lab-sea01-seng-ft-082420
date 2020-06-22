@@ -1,13 +1,10 @@
 # don't forget to add: require 'pry'
 require 'pry'
 def snake_it_up (string)
+  ten_s =10.times {print "s"}
+  
   if string[0] == "s"
-    def ten_s 
-    10.times do
-      print "s"
-    end
-  end
-    puts ten_s.to_s + string
+    puts ten_s + string
   else
     string
   end
