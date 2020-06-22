@@ -1,7 +1,7 @@
 # don't forget to add: require 'pry'
 require 'pry'
 def snake_it_up (string)
-  ten_s = (10 * "s".to_i).to_s
+  ten_s = "ssssssssss"
   
   if string[0] == "s"
     return ten_s + string
