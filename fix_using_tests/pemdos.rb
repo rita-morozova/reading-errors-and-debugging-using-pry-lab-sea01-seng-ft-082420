@@ -5,8 +5,8 @@ def snake_it_up (string)
     ten_s = 10.times do
              print "s"
            end
-    puts ten_s + string.to_s
+    puts ten_s + "string"
   else
-    string.to_s
+    "string"
   end
 end
